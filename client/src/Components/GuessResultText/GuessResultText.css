@@ -1,0 +1,62 @@
+.result-div {
+  min-height: 40vh;
+  width: 100vw;
+  background-image: linear-gradient(#08045c, black);
+  color: white;
+}
+
+.result-content {
+  min-height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .result-content {
+    font-size: 3vw;
+  }
+}
+
+.result-text {
+  margin: 30px 5vw;
+}
+
+.pts-container {
+  position: relative;
+  margin: 3vh 0;
+}
+
+.total-pts {
+  width: 60%;
+  margin-left: 20%;
+  background-color: #4a4e4d;
+  opacity: 50%;
+  height: 10px;
+  border-radius: 80px;
+  position: absolute;
+}
+
+#pts-earned {
+  height: 10px;
+  margin-left: 20%;
+  border-radius: 80px;
+  background-color: #f6cd61;
+  z-index: 5;
+  position: absolute;
+}
+
+.pts-header {
+  color: #f6cd61;
+  margin-top: 20px;
+}
+
+.miles {
+  background-color: #4a4e4d;
+  padding: 2px 7px;
+  margin: 0px 5px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}

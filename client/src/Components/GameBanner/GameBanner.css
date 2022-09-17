@@ -1,0 +1,67 @@
+.game-banner {
+  width: 325px;
+  height: 80px;
+  transform: skew(15deg);
+  background: #0e9aa7;
+  z-index: 10;
+  position: absolute;
+  top: 3%;
+  right: -50px;
+}
+
+@media (max-width: 767px) {
+  .game-banner {
+    width: 360px;
+    height: 90px;
+  }
+}
+
+.banner-text {
+  width: 230px;
+  height: 80px;
+  z-index: 11;
+  position: absolute;
+  top: 3%;
+  right: 0;
+}
+
+.banner-row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.banner-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  height: 100%;
+}
+
+.banner-row > th {
+  font-size: 0.75em;
+  opacity: 50%;
+  text-align: left;
+  vertical-align: bottom;
+  margin-top: 20px;
+}
+
+.banner-row > td {
+  font-weight: bold;
+  height: 100%;
+}
+
+.banner-column-1 {
+  width: 54%;
+}
+
+@media (max-width: 480px) {
+  .banner-column {
+    width: 100%;
+  }
+}
+
+.banner-column {
+  width: 23%;
+}

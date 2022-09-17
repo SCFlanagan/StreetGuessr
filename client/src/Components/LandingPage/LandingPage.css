@@ -1,0 +1,37 @@
+.landing-page {
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  background-image: url("../../images/landing-background.avif");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 767px) {
+  .landing-page {
+    background-image: url("../../images/landing-background-mobile.png");
+  }
+}
+
+.title {
+  font-family: "Playfair Display", serif;
+  margin: 10px 40px 40px 40px;
+  font-size: 12vw;
+  color: #fbfaf5;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.landing-btn {
+  font-size: clamp(12px, 3vw, 20px);
+  margin: 0px 30px 20px 30px;
+  text-transform: none;
+  width: 225px;
+}
+
+.landing-btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+.scoreboard {
+  width: 80%;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .scoreboard {
+    font-size: 3vw;
+  }
+}
+
+.scoreboard > thead > tr > th {
+  font-size: 1.1em;
+  padding-bottom: 20px;
+  vertical-align: top;
+}
+
+.pts-row {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.distance-row {
+  color: gray;
+}

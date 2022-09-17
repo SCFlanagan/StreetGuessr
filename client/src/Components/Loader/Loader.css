@@ -1,0 +1,71 @@
+.loader-page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../images/landing-background.avif");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .loader-page {
+    background-image: url("../../images/landing-background-mobile.png");
+  }
+}
+
+.loader-image {
+  background-image: url("../../images/world-map.png");
+  height: 25vw;
+  width: 40vw;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border-radius: 3px;
+}
+
+.loader-text {
+  color: white;
+  margin: 20px 0;
+}
+
+.mag-glass {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+  z-index: 2;
+  background-image: url("../../images/mag-glass.png");
+  background-position: center;
+  background-size: cover;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .mag-glass-animation {
+    -webkit-animation: mag-glass-searching 3s linear;
+    animation: mag-glass-searching 3s linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+}
+
+@-webkit-keyframes mag-glass-searching {
+  0% {
+    transform: rotate(0deg) translate(-6vw) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-6vw) rotate(-360deg);
+  }
+}
+
+@keyframes mag-glass-searching {
+  0% {
+    transform: rotate(0deg) translate(-6vw) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-6vw) rotate(-360deg);
+  }
+}

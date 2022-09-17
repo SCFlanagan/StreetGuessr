@@ -1,0 +1,94 @@
+.guess-page {
+  height: 100vh;
+  width: 100vw;
+  min-height: 400px;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.guess-map {
+  position: absolute;
+  right: 1vw;
+  bottom: 10vh;
+  width: 21%;
+  height: 24%;
+  z-index: 5;
+  transform-origin: bottom right;
+  border: 12px solid transparent;
+}
+
+@media (max-width: 767px) {
+  .guess-map {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (max-height: 700px) {
+  .guess-map {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.guess-map:hover {
+  animation-name: growSize;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  transform-origin: bottom right;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes growSize {
+  from {
+    width: 21%;
+    height: 24%;
+    min-width: 100px;
+    min-height: 100px;
+  }
+  to {
+    width: 35%;
+    height: 40%;
+    min-width: 340px;
+    min-height: 200px;
+  }
+}
+
+@keyframes shrink {
+  from {
+    width: 35%;
+    height: 40%;
+    min-width: 340px;
+    min-height: 200px;
+  }
+  to {
+    width: 21%;
+    height: 24%;
+    min-width: 100px;
+    min-height: 100px;
+  }
+}
+
+.mini {
+  animation-name: shrink;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  transform-origin: bottom right;
+  animation-timing-function: ease-in-out;
+}
+
+.gm-compass,
+.gm-style-mtc,
+.gm-svpc,
+.gm-fullscreen-control,
+.gmnoprint[role="menubar"] {
+  visibility: hidden;
+}
+
+.guess-container {
+  border-radius: 3px;
+  overflow: hidden;
+}

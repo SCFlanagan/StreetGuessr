@@ -1,0 +1,28 @@
+.result-btn-container {
+  margin-bottom: 20px;
+}
+
+.end-game-btns {
+  margin: 30px 20px;
+  border-radius: 100px;
+}
+
+.main-menu-btn {
+  padding: 15px 20px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  border-radius: 100px;
+  border: 0px;
+  transition: color 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  z-index: 3;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.main-menu-btn:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+}

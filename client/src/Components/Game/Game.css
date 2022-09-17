@@ -1,0 +1,11 @@
+.relative {
+  position: relative;
+}
+
+.game {
+  min-height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}

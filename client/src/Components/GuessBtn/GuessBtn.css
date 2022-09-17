@@ -1,0 +1,13 @@
+#guess-btn {
+  width: 100%;
+  margin-top: 10px;
+  background-color: black;
+  opacity: 40%;
+  transition: background-color 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 80px;
+}
+
+#guess-btn:hover {
+  transform: scale(1.05);
+}

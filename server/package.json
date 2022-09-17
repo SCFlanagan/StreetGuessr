@@ -1,0 +1,25 @@
+{
+  "name": "streetguessr_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": "14.17.4"
+  },
+  "author": "Susan Flanagan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "jasmine": "^4.0.2",
+    "supertest": "^6.2.2"
+  }
+}

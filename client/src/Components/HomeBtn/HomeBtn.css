@@ -1,0 +1,22 @@
+.logo {
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 16;
+  padding: 20px 20px;
+  color: #ffa500;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+@media (max-width: 480px) {
+  .logo {
+    opacity: 0;
+  }
+}
+
+.logo:hover {
+  cursor: pointer;
+  color: #ffcb6c;
+  transform: scale(1.2);
+}
