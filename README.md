@@ -11,6 +11,7 @@ StreetGuessr is a game built using the Google Maps API. The game gives you a str
 * A RESTful API with unit tests
 * Map locations stored in a noSQL database
 * A custom loading screen
+* Guess map expands on hover
 * Two different game modes, one for famous sites and one for random streets in the world
 
 ## Tech
@@ -28,5 +29,9 @@ StreetGuessr is a game built using the Google Maps API. The game gives you a str
 ## Deployed
 https://streetguessr.herokuapp.com
 
-<a src="https://github.com/SCFlanagan/StreetGuessr/raw//src"
+<img src="https://github.com/SCFlanagan/StreetGuessr/raw/master/images/streetguessr-landing.png" />
+
+<img src="https://github.com/SCFlanagan/StreetGuessr/raw/master/images/streetguessr-streetview.png" />
+
+<img src="https://github.com/SCFlanagan/StreetGuessr/raw/master/images/streetguessr-results.png" />
 
