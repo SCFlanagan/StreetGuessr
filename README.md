@@ -25,6 +25,8 @@ StreetGuessr is a game built using the Google Maps API. The game gives you a str
 * Jasmine
 * Google Maps API
 * Heroku
+* HTML
+* CSS
 
 ## Deployed
 https://streetguessr.herokuapp.com
